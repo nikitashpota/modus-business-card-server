@@ -1,7 +1,7 @@
-module.exports = {
+export default {
   apps: [{
     name: 'my-app',
-    script: 'app.js',
+    script: './app.js',
     instances: 'max',
     autorestart: true,
     watch: true,
