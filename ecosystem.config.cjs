@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   apps: [
     {
       name: "express-app",
@@ -7,5 +7,5 @@ export default {
         COMMON_VARIABLE: "true"
       }
     }
-  ] 
+  ]
 }
