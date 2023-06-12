@@ -1,6 +1,7 @@
 require = require('esm')(module);
 
-module.exports = {
+// ecosystem.config.mjs
+export default {
   apps: [
     {
       name: 'my-app',
@@ -14,4 +15,4 @@ module.exports = {
       }
     }
   ]
-};
+}
