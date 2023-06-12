@@ -1,17 +1,10 @@
-require = require('esm')(module);
-
-// ecosystem.config.mjs
-export default {
+module.exports = {
   apps: [
     {
-      name: 'my-app',
-      script: './app.js',
-      instances: 'max',
-      autorestart: true,
-      watch: true,
-      max_memory_restart: '1G',
+      name: "express-app",
+      script: "./app.js",
       env: {
-        NODE_ENV: 'production'
+        COMMON_VARIABLE: "true"
       }
     }
   ]
