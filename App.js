@@ -20,6 +20,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(router);
 
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`Сервер настроен на ${port}`);
 });
